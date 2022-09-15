@@ -9,14 +9,15 @@
 
 ## Participantes
 
-> Os membros do grupo são: 
-
-Danilo Augusto Silva Pereira
-Ernani Procopio Neto
-Vitor Lagares Stahlberg
-Lucas Cabral Soares
-Letícia Rodrigues Blom de Paula
-Thiago Vitor Pereira Perdigao
+> Os membros do grupo são:
+>
+>
+> Danilo Augusto Silva Pereira 
+> Ernani Procopio Neto
+> Vitor Lagares Stahlberg
+> Lucas Cabral Soares
+> Letícia Rodrigues Blom de Paula
+> Thiago Vitor Pereira Perdigao
 
 
 # Estrutura do Documento
