@@ -10,8 +10,6 @@
 ## Participantes
 
 > Os membros do grupo são:
->
->
 > Danilo Augusto Silva Pereira 
 > Ernani Procopio Neto
 > Vitor Lagares Stahlberg
