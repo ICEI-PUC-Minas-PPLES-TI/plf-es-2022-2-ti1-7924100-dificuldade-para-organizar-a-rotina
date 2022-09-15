@@ -9,7 +9,12 @@
 
 ## Participantes
 
-......  COLOQUE AQUI O SEU TEXTO ......
+Danilo Augusto Silva Pereira
+Ernani Procopio Neto
+Vitor Lagares Stahlberg
+Lucas Cabral Soares
+Letícia Rodrigues Blom de Paula
+Thiago Vitor Pereira Perdigao
 
 > Inclua a lista dos membros da equipe com seus nomes completos.
 >
