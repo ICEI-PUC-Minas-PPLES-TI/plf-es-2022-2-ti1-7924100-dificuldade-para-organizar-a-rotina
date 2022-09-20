@@ -93,7 +93,7 @@
 
 > **Exemplo de Persona**
 > 
-> ![Exemplo de Persona](imaages/../images/persona.png)
+> ![Exemplo de Persona](imaages/../images/Persona1.png) > ![Exemplo de Persona](imaages/../images/Persona2.png) > ![Exemplo de Persona](imaages/../images/Persona3.jpg)
 > 
 > Fonte: [Como criar uma persona para o seu negócio](https://raissaviegas.com.br/como-criar-uma-persona/)
 
