@@ -93,115 +93,69 @@
 
 > **Exemplo de Persona**
 > 
-> ![Exemplo de Persona](imaages/../images/Persona1.png) > ![Exemplo de Persona](imaages/../images/Persona2.png) > ![Exemplo de Persona](imaages/../images/Persona3.jpg)
-> 
-> Fonte: [Como criar uma persona para o seu negócio](https://raissaviegas.com.br/como-criar-uma-persona/)
-
-
+>![Exemplo de Persona](imaages/../images/Persona1.png)
+>![Exemplo de Persona](imaages/../images/Persona2.png)
+>![Exemplo de Persona](imaages/../images/Persona3.jpg)
 ## Histórias de Usuários
 
 Com base na análise das personas forma identificadas as seguintes histórias de usuários:
 
 |EU COMO... `PERSONA`| QUERO/PRECISO ... `FUNCIONALIDADE` |PARA ... `MOTIVO/VALOR`                 |
 |--------------------|------------------------------------|----------------------------------------|
-|Usuário do sistema  | Registrar minhas tarefas           | Não esquecer de fazê-las               |
-|Administrador       | Alterar permissões                 | Permitir que possam administrar contas |
-
-> Apresente aqui as histórias de usuário que são relevantes para o
-> projeto de sua solução. As Histórias de Usuário consistem em uma
-> ferramenta poderosa para a compreensão e elicitação dos requisitos
-> funcionais e não funcionais da sua aplicação. Se possível, agrupe as
-> histórias de usuário por contexto, para facilitar consultas
-> recorrentes à essa parte do documento.
->
-> **Links Úteis**:
-> - [Histórias de usuários com exemplos e template](https://www.atlassian.com/br/agile/project-management/user-stories)
-> - [Como escrever boas histórias de usuário (User Stories)](https://medium.com/vertice/como-escrever-boas-users-stories-hist%C3%B3rias-de-usu%C3%A1rios-b29c75043fac)
+|Cliente             |Um tipo de agenda que me ajude a organizar meus afazeres diários|Tenho muitos compromissos no meu cotidiano, não consigo administrá-los e acabo deixando muitos de lado sem ao menos me lembrar deles.|
+|Cliente             |Uma ferramenta que me motive a realizar meus compromissos.|Sou vagaroso e me distraio com certa facilidade, com essas novas tecnologias acabo passando muito tempo fazendo coisas fúteis como assistir vídeos no tiktok e deixo atividades importantes serem ignoradas.|
+|Cliente             |Uma ferramenta que me ajude a focar na tarefa atual.|Perco o foco muito facilmente enquanto realizo minhas atividades acadêmicas.|
+|Cliente             |Uma forma de conseguir organizar meu dia a dia.|Organizar minhas tarefas com maior facilidade e clareza.|
+|Cliente             |Compartilhar minhas tarefas com meus amigos.|Às vezes sinto necessidade de dividir tarefas com amigos.|
+|Cliente             |Um calendário que me ajude a visualizar meus afazeres a longo prazo.|Para ajudar a me planejar com antecedência.|
+|Cliente             |Eu quero que seja disponibilizado opções de remover o horário de cada tarefa do meu dia.|Para que eu possa ter mais flexibilidade.|
 
 ## Requisitos
-
-As tabelas que se seguem apresentam os requisitos funcionais e não funcionais que detalham o escopo do projeto.
 
 ### Requisitos Funcionais
 
 |ID    | Descrição do Requisito  | Prioridade |
 |------|-----------------------------------------|----|
-|RF-001| Permitir que o usuário cadastre tarefas | ALTA | 
-|RF-002| Emitir um relatório de tarefas no mês   | MÉDIA |
+|RF-001|O site deve apresentar na página principal orientações de como melhorar a organização da rotina.|Alta| 
+|RF-002|O site deve apresentar na página principal imagens e textos com cunho motivacional em relação ao tema.|Média|
+|RF-003|O site deve permitir ao usuário visualizar o texto completo das orientações com todos os detalhes da publicação|Média|
+|RF-004|O site deverá notificar o usuário sobre as tarefas que estão se aproximando.|Média|
+|RF-005|O site deve oferecer uma funcionalidade de uma agenda, com a qual o usuário terá a possibilidade de adicionar, retirar e visualizar tarefas.|Alta|
+|RF-006|O site deve permitir que o usuário defina prioridade, data e status da tarefa (se está concluída).|Média|
+|RF-007|O site deve permitir o compartilhamento de tarefas com outros usuários. |Baixa|
+|RF-008|O site oferecer uma função que ajude o usuário a obter foco em alguma tarefa. Sendo essa função cronometrada e com aviso sonoro.|Alta|
+|RF-009|O site deverá oferecer a funcionalidade de criar um login com senha.|Alta|
+|RF-010|O site deverá oferecer a funcionalidade de personalizar o perfil de usuário. |Baixa|
+|RF-011|O site deverá oferecer uma função de modo noturno.|Baixa|
 
 
 ### Requisitos não Funcionais
 
 |ID     | Descrição do Requisito  |Prioridade |
 |-------|-------------------------|----|
-|RNF-001| O sistema deve ser responsivo para rodar em um dispositivos móvel | MÉDIA | 
-|RNF-002| Deve processar requisições do usuário em no máximo 3s |  BAIXA | 
-
-> Com base nas Histórias de Usuário, enumere os requisitos da sua
-> solução. Classifique esses requisitos em dois grupos:
->
-> - [Requisitos Funcionais (RF)](https://pt.wikipedia.org/wiki/Requisito_funcional):
->   correspondem a uma funcionalidade que deve estar presente na
->   plataforma (ex: cadastro de usuário).
->
-> - [Requisitos Não Funcionais (RNF)](https://pt.wikipedia.org/wiki/Requisito_n%C3%A3o_funcional):
->   correspondem a uma característica técnica, seja de usabilidade,
->   desempenho, confiabilidade, segurança ou outro (ex: suporte a
->   dispositivos iOS e Android).
->
-> Lembre-se que cada requisito deve corresponder à uma e somente uma
-> característica alvo da sua solução. Além disso, certifique-se de que
-> todos os aspectos capturados nas Histórias de Usuário foram cobertos.
-> 
-> **Links Úteis**:
-> 
-> - [O que são Requisitos Funcionais e Requisitos Não Funcionais?](https://codificar.com.br/requisitos-funcionais-nao-funcionais/)
-> - [O que são requisitos funcionais e requisitos não funcionais?](https://analisederequisitos.com.br/requisitos-funcionais-e-requisitos-nao-funcionais-o-que-sao/)
-
+|RNF-001|O site deve ser publicado em um ambiente acessível publicamente na Internet (Repl.it, GitHub Pages, Heroku); |Alta| 
+|RNF-002|O site deverá ser responsivo permitindo a visualização em um celular de forma adequada|Alta|
+|RNF-003|O site deve ter bom nível de contraste entre os elementos da tela em conformidade |Média|
+|RNF-004|O site deve ser compatível com os principais navegadores do mercado (Google Chrome, Firefox, Microsoft Edge)|Alta|
 
 ## Restrições
 
-O projeto está restrito pelos itens apresentados na tabela a seguir.
 
 |ID| Restrição                                             |
 |--|-------------------------------------------------------|
-|01| O projeto deverá ser entregue até o final do semestre |
-|02| Não pode ser desenvolvido um módulo de backend        |
-
-
-> Enumere as restrições à sua solução. Lembre-se de que as restrições
-> geralmente limitam a solução candidata.
-> 
-> **Links Úteis**:
-> - [O que são Requisitos Funcionais e Requisitos Não Funcionais?](https://codificar.com.br/requisitos-funcionais-nao-funcionais/)
-> - [O que são requisitos funcionais e requisitos não funcionais?](https://analisederequisitos.com.br/requisitos-funcionais-e-requisitos-nao-funcionais-o-que-sao/)
+|01| O projeto deverá ser entregue no final do semestre letivo, não podendo extrapolar a data de 07/07/2020. |
+|02|O aplicativo deve se restringir às tecnologias básicas da Web no Frontend|
+|03|A equipe não pode subcontratar o desenvolvimento do trabalho.|
 
 
 # Projeto de Interface
 
-......  COLOQUE AQUI O SEU TEXTO DE INTRODUÇÃO ......
-
-> Apresente as principais interfaces da solução. Discuta como 
-> foram elaboradas de forma a atender os requisitos funcionais, não
-> funcionais e histórias de usuário abordados nas [Especificações do
-> Projeto](#especificações-do-projeto).
+> Dentre as preocupações para a montagem da interface do sistema, estamos estabelecendo foco em questões como agilidade, acessibilidade e usabilidade. Desta forma, o projeto tem uma identidade visual padronizada em todas as telas que são projetadas para funcionamento em desktops e dispositivos móveis.
 
 ## User Flow
 
-......  INCLUA AQUI O DIAGRAMA COM O FLUXO DO USUÁRIO NA APLICAÇÃO ......
+> O diagrama apresentado na Figura X mostra o fluxo de interação do usuário pelas telas do sistema. Cada uma das telas deste fluxo é detalhada na seção de Wireframes que se segue. Para visualizar o wireframe interativo, acesse o ambiente MarvelApp do projeto.
 
-> Fluxo de usuário (User Flow) é uma técnica que permite ao desenvolvedor
-> mapear todo fluxo de telas do site ou app. Essa técnica funciona
-> para alinhar os caminhos e as possíveis ações que o usuário pode
-> fazer junto com os membros de sua equipe.
->
-> **Links Úteis**:
-> - [User Flow: O Quê É e Como Fazer?](https://medium.com/7bits/fluxo-de-usu%C3%A1rio-user-flow-o-que-%C3%A9-como-fazer-79d965872534)
-> - [User Flow vs Site Maps](http://designr.com.br/sitemap-e-user-flow-quais-as-diferencas-e-quando-usar-cada-um/)
-> - [Top 25 User Flow Tools & Templates for Smooth](https://www.mockplus.com/blog/post/user-flow-tools)
->
-> **Exemplo**:
-> 
 > ![Exemplo de UserFlow](images/userflow.jpg)
 
 
