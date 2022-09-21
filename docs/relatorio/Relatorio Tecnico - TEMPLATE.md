@@ -161,22 +161,47 @@ Com base na análise das personas forma identificadas as seguintes histórias de
 
 ## Wireframes
 
-......  INCLUA AQUI OS WIREFRAMES DAS TELAS DA APLICAÇÃO COM UM BREVE DESCRITIVO ......
+### Tela - Home-Page
+> A tela de home-page mostra ícones com dicas e artigos visando a melhor organização da rotina. 
+Com base na estrutura padrão, o bloco de conteúdo traz as dicas em destaque (imagem, título). O cabeçalho traz cinco elementos distintos:
+- Componente agenda que leva o usuário para a TELA - AGENDA;
+- Componente modo foco que leva o usuário para a TELA - MODO FOCO;
+- Componente com uma foto que leva o usuário para a TELA - PERFIL.
+- Componente home atualiza a página. (em outras páginas leva de volta a TELA - HOME)
+- Componente com um ícone de notificação ativa as notificações.
 
-> Wireframes são protótipos das telas da aplicação usados em design de interface para sugerir a
-> estrutura de um site web e seu relacionamentos entre suas
-> páginas. Um wireframe web é uma ilustração semelhante ao
-> layout de elementos fundamentais na interface.
-> 
-> **Links Úteis**:
-> - [Ferramentas de Wireframes](https://rockcontent.com/blog/wireframes/)
-> - [Figma](https://www.figma.com/)
-> - [Adobe XD](https://www.adobe.com/br/products/xd.html#scroll)
-> - [MarvelApp](https://marvelapp.com/developers/documentation/tutorials/)
-> 
-> **Exemplo**:
-> 
-> ![Exemplo de Wireframe](images/wireframe-example.png)
+> ![Home-page](images/wfhome.png)
+
+### Tela - Login
+> A tela de login apresenta a possibilidade para o usuário cadastrado de entrar com sua conta pessoal, sendo redirecionado para a Home-Page. Caso o usuário não seja cadastrado, quando clicar em “Ainda não tem cadastro?”, é redirecionado à página de Cadastro.
+
+![Loguin](images/wflogin.png)
+
+### Tela - Cadastro
+> A página de cadastro pede ao usuário, seu nome, seu email e uma senha para criar uma conta, sendo assim, redirecionado para a Home-Page, após de criada. Caso o usuário já tenha cadastro, quando clicado em “Já tem cadastro?”, o usuário é redirecionado para a página de Login.
+
+![Cadastro](images/wfcadastro.png)
+
+### Tela - Agenda
+> A tela de Agenda apresenta o calendário do mês e as tarefas do dia. Também, a possibilidade de agendar uma tarefa. No cabeçalho, existe a opção de ir para a página Home, para a página Modo Foco, e para o perfil do usuário.
+
+![Agenda](images/wfagenda.png)
+
+### Tela - Modo Foco
+> A tela de Modo Foco contém um cronômetro regressivo que conforme o método Pomodoro, separa 25 minutos de foco e 5 minutos de descanso, sucessivamente por 3 vezes. No final dos 25 minutos, muda para short break de 5 minutos e no final do ciclo o foco é mudado para long break de 10 minutos. A contagem dos ciclos constam no canto inferior esquerdo da página. No cabeçalho, tem a opção de Home, Agenda e usuário.
+
+![Modofoco](images/wfmodofoco.png)
+
+### Tela - Artigo aberto
+> A tela que contém o artigo anexado na Home-Page. São artigos que ensinam como melhorar sua rotina e quais as vantagens disso. No cabeçalho, existe a opção de ir para a página Home, para a página Agenda, para a página Modo Foco, para o perfil do usuário.
+
+![Artigo](images/wfartigo.png)
+
+### Tela -  Perfil
+> A tela de perfil é a página do usuário dono da conta, nela é possível definir e acessar o nome, o aniversário, o email, e o status do usuário. No cabeçalho, existe a opção de ir para a página Home, para a página Modo Foco, e para a página Agenda.
+
+![Perfil](images/wfperfil.png)
+
 
 
 # Metodologia
