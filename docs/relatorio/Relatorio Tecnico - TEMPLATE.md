@@ -85,17 +85,18 @@
  
 # Especificações do Projeto
 
-> A definição exata do problema e os pontos mais relevantes a serem tratados neste projeto foi consolidada com a participação dos usuários em um trabalho de imersão feita pelos membros da equipe a partir da observação dos usuários em seu local natural e por meio de entrevistas. Os detalhes levantados nesse processo foram consolidados na forma de personas e histórias de usuários.
+A definição exata do problema e os pontos mais relevantes a serem tratados neste projeto foi consolidada com a participação dos usuários em um trabalho de imersão feita pelos membros da equipe a partir da observação dos usuários em seu local natural e por meio de entrevistas. Os detalhes levantados nesse processo foram consolidados na forma de personas e histórias de usuários.
 
 ## Personas e Mapas de Empatia
 
-> As personas levantadas durante o processo de entendimento do problema são apresentadas na Figuras que se seguem.
+As personas levantadas durante o processo de entendimento do problema são apresentadas na Figuras que se seguem.
 
-> **Exemplo de Persona**
-> 
->![Exemplo de Persona](imaages/../images/Persona1.png)
->![Exemplo de Persona](imaages/../images/Persona2.png)
->![Exemplo de Persona](imaages/../images/Persona3.jpg)
+**Exemplo de Persona**
+
+<img src="./images/Persona1.png" width="200px">
+<img src="./images/Persona2.png" width="200px">
+<img src="./images/Persona3.jpg" width="200px">
+
 ## Histórias de Usuários
 
 Com base na análise das personas forma identificadas as seguintes histórias de usuários:
