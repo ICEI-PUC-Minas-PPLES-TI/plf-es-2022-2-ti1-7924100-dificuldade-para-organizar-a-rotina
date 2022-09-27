@@ -54,34 +54,34 @@
 
 # Introdução
 
-> De acordo com o psicólogo e cirurgião plástico Maxwell Maltz em sua obra Psicocibernética, 21 dias, era o prazo para que seus pacientes levavam para se acostumarem com à sua nova imagem, após alguma intervenção cirúrgica. Desta obra, interpreta-se a teoria dos 21 dias, a qual diz que 21 dias é o tempo que o cérebro leva para se acostumar com uma nova rotina. Seguindo este raciocínio, percebe-se que fazer uma rotina virar um hábito, não é a tarefa mais simples do mundo, especialmente para estudantes que possuem altas exigências de produtividade, e muitas vezes ficam sobrecarregadas por elas. Neste quesito, ter uma rotina planejada torna-se uma potencial maior aliada para um dia a dia mais produtivo.
+De acordo com o psicólogo e cirurgião plástico Maxwell Maltz em sua obra Psicocibernética, 21 dias, era o prazo para que seus pacientes levavam para se acostumarem com à sua nova imagem, após alguma intervenção cirúrgica. Desta obra, interpreta-se a teoria dos 21 dias, a qual diz que 21 dias é o tempo que o cérebro leva para se acostumar com uma nova rotina. Seguindo este raciocínio, percebe-se que fazer uma rotina virar um hábito, não é a tarefa mais simples do mundo, especialmente para estudantes que possuem altas exigências de produtividade, e muitas vezes ficam sobrecarregadas por elas. Neste quesito, ter uma rotina planejada torna-se uma potencial maior aliada para um dia a dia mais produtivo.
   
-> Entretanto, encontra-se um desafio na vida diária do estudante: manter tais projetos em dia. Seja por falta de motivação, procrastinação, imprevistos ou pela falta de habilidade de lidar com uma quantidade elevada de tarefas. Tantos motivos levam muitos estudantes a abandonar a rotina inicialmente projetada e não fazer o que estava planejado, o que deprime a produtividade.
+Entretanto, encontra-se um desafio na vida diária do estudante: manter tais projetos em dia. Seja por falta de motivação, procrastinação, imprevistos ou pela falta de habilidade de lidar com uma quantidade elevada de tarefas. Tantos motivos levam muitos estudantes a abandonar a rotina inicialmente projetada e não fazer o que estava planejado, o que deprime a produtividade.
 
-> Sendo assim, torna-se necessária uma ferramenta para auxiliar na realização de tarefas do dia a dia, permitindo uma maior produtividade aos estudantes, com dicas e instrumentos organizacionais para auxiliar no caminho de uma rotina mais organizada.
+Sendo assim, torna-se necessária uma ferramenta para auxiliar na realização de tarefas do dia a dia, permitindo uma maior produtividade aos estudantes, com dicas e instrumentos organizacionais para auxiliar no caminho de uma rotina mais organizada.
 
 ## Problema
 
-> Conforme exposto, o problema que se busca resolver com este projeto é a dificuldade com a organização pessoal, gestão de tempo e produtividade, principalmente, que estudantes e universitários sentem ao iniciar uma rotina.
+Conforme exposto, o problema que se busca resolver com este projeto é a dificuldade com a organização pessoal, gestão de tempo e produtividade, principalmente, que estudantes e universitários sentem ao iniciar uma rotina.
 
 ## Objetivos
 
-> O objetivo geral deste trabalho é a criação de um organizador pessoal, de fácil uso, em que estudantes possam ter um espaço de organização e gestão de tempo.
+O objetivo geral deste trabalho é a criação de um organizador pessoal, de fácil uso, em que estudantes possam ter um espaço de organização e gestão de tempo.
 
-> Como objetivos específicos, podemos ressaltar:
+Como objetivos específicos, podemos ressaltar:
 - Propiciar ferramentas que permitem ao usuário visualizar sua rotina e descobrir os melhores horários para cada tarefa;
 - Incluir dicas de gestão de tempo;
 - Implementar um canal de foco, seguindo a metodologia Pomodoro.
 
 ## Justificativa
 
-> Um estudo feito em Vitória/ES com 72 participantes sendo 50 transeuntes de 20 e 60 anos e 22 estudantes universitários mostra que para os estudantes, 14% adiam o início da tarefa enquanto 12,5% daqueles que estão na faixa etária entre 20-29 anos fazem o mesmo, sendo que esses dois grupos são os que mais procrastinam.(ENUMO; KERBAUY, 1999).
-> Além disso, verifica-se uma deficiência em sites que disponibilizam maior variedade de  ferramentas voltadas à produtividade, como o relógio pomodoro, artigos relacionados e opções adicionais para o usuário. 
-> A criação de tal ferramenta social forneceria uma maior flexibilidade e melhor adequação às suas necessidades para à população que sofre com a desorganização e a protelação.
+Um estudo feito em Vitória/ES com 72 participantes sendo 50 transeuntes de 20 e 60 anos e 22 estudantes universitários mostra que para os estudantes, 14% adiam o início da tarefa enquanto 12,5% daqueles que estão na faixa etária entre 20-29 anos fazem o mesmo, sendo que esses dois grupos são os que mais procrastinam.(ENUMO; KERBAUY, 1999).
+Além disso, verifica-se uma deficiência em sites que disponibilizam maior variedade de  ferramentas voltadas à produtividade, como o relógio pomodoro, artigos relacionados e opções adicionais para o usuário. 
+A criação de tal ferramenta social forneceria uma maior flexibilidade e melhor adequação às suas necessidades para à população que sofre com a desorganização e a protelação.
 
 ## Público-Alvo
 
-> Jovens de 16 a 25 anos, com foco maior em estudantes, mas nosso público também abrange jovens que já concluíram seus estudos e estão em busca de um primeiro emprego ou que já estão empregados, jovens que utilizam diariamente a tecnologia e já estão bem familiarizados com a mesma, que não possuem muita maturidade ou experiência em administrar seus horários mas possuem interesse em mudar isso.
+Jovens de 16 a 25 anos, com foco maior em estudantes, mas nosso público também abrange jovens que já concluíram seus estudos e estão em busca de um primeiro emprego ou que já estão empregados, jovens que utilizam diariamente a tecnologia e já estão bem familiarizados com a mesma, que não possuem muita maturidade ou experiência em administrar seus horários mas possuem interesse em mudar isso.
  
 # Especificações do Projeto
 
@@ -106,7 +106,7 @@ Com base na análise das personas forma identificadas as seguintes histórias de
 |Cliente             |Um tipo de agenda que me ajude a organizar meus afazeres diários|Tenho muitos compromissos no meu cotidiano, não consigo administrá-los e acabo deixando muitos de lado sem ao menos me lembrar deles.|
 |Cliente             |Uma ferramenta que me motive a realizar meus compromissos.|Sou vagaroso e me distraio com certa facilidade, com essas novas tecnologias acabo passando muito tempo fazendo coisas fúteis como assistir vídeos no tiktok e deixo atividades importantes serem ignoradas.|
 |Cliente             |Uma ferramenta que me ajude a focar na tarefa atual.|Perco o foco muito facilmente enquanto realizo minhas atividades acadêmicas.|
-|Cliente             |Uma forma de conseguir organizar meu dia a dia.|Organizar minhas tarefas com maior facilidade e clareza.|
+|Cliente             |Uma forma de conseguir organizar meu dia a dia.|Ter todas as minhas tarefas bem organizadas para não deixar de cumpri-las.|
 |Cliente             |Compartilhar minhas tarefas com meus amigos.|Às vezes sinto necessidade de dividir tarefas com amigos.|
 |Cliente             |Um calendário que me ajude a visualizar meus afazeres a longo prazo.|Para ajudar a me planejar com antecedência.|
 |Cliente             |Eu quero que seja disponibilizado opções de remover o horário de cada tarefa do meu dia.|Para que eu possa ter mais flexibilidade.|
@@ -151,19 +151,19 @@ Com base na análise das personas forma identificadas as seguintes histórias de
 
 # Projeto de Interface
 
-> Dentre as preocupações para a montagem da interface do sistema, estamos estabelecendo foco em questões como agilidade, acessibilidade e usabilidade. Desta forma, o projeto tem uma identidade visual padronizada em todas as telas que são projetadas para funcionamento em desktops e dispositivos móveis.
+Dentre as preocupações para a montagem da interface do sistema, estamos estabelecendo foco em questões como agilidade, acessibilidade e usabilidade. Desta forma, o projeto tem uma identidade visual padronizada em todas as telas que são projetadas para funcionamento em desktops e dispositivos móveis.
 
 ## User Flow
 
-> O diagrama apresentado na Figura X mostra o fluxo de interação do usuário pelas telas do sistema. Cada uma das telas deste fluxo é detalhada na seção de Wireframes que se segue. Para visualizar o wireframe interativo, acesse o ambiente MarvelApp do projeto.
+O diagrama apresentado na Figura X mostra o fluxo de interação do usuário pelas telas do sistema. Cada uma das telas deste fluxo é detalhada na seção de Wireframes que se segue. Para visualizar o wireframe interativo, acesse o ambiente MarvelApp do projeto.
 
-> ![Exemplo de UserFlow](images/userflow.jpg)
+![Exemplo de UserFlow](images/userflow.jpg)
 
 
 ## Wireframes
 
 ### Tela - Home-Page
-> A tela de home-page mostra ícones com dicas e artigos visando a melhor organização da rotina. 
+A tela de home-page mostra ícones com dicas e artigos visando a melhor organização da rotina. 
 Com base na estrutura padrão, o bloco de conteúdo traz as dicas em destaque (imagem, título). O cabeçalho traz cinco elementos distintos:
 - Componente agenda que leva o usuário para a TELA - AGENDA;
 - Componente modo foco que leva o usuário para a TELA - MODO FOCO;
@@ -171,35 +171,35 @@ Com base na estrutura padrão, o bloco de conteúdo traz as dicas em destaque (i
 - Componente home atualiza a página. (em outras páginas leva de volta a TELA - HOME)
 - Componente com um ícone de notificação ativa as notificações.
 
-> ![Home-page](images/wfhome.png)
+![Home-page](images/wfhome.png)
 
 ### Tela - Login
-> A tela de login apresenta a possibilidade para o usuário cadastrado de entrar com sua conta pessoal, sendo redirecionado para a Home-Page. Caso o usuário não seja cadastrado, quando clicar em “Ainda não tem cadastro?”, é redirecionado à página de Cadastro.
+A tela de login apresenta a possibilidade para o usuário cadastrado de entrar com sua conta pessoal, sendo redirecionado para a Home-Page. Caso o usuário não seja cadastrado, quando clicar em “Ainda não tem cadastro?”, é redirecionado à página de Cadastro.
 
 ![Loguin](images/wflogin.png)
 
 ### Tela - Cadastro
-> A página de cadastro pede ao usuário, seu nome, seu email e uma senha para criar uma conta, sendo assim, redirecionado para a Home-Page, após de criada. Caso o usuário já tenha cadastro, quando clicado em “Já tem cadastro?”, o usuário é redirecionado para a página de Login.
+A página de cadastro pede ao usuário, seu nome, seu email e uma senha para criar uma conta, sendo assim, redirecionado para a Home-Page, após de criada. Caso o usuário já tenha cadastro, quando clicado em “Já tem cadastro?”, o usuário é redirecionado para a página de Login.
 
 ![Cadastro](images/wfcadastro.png)
 
 ### Tela - Agenda
-> A tela de Agenda apresenta o calendário do mês e as tarefas do dia. Também, a possibilidade de agendar uma tarefa. No cabeçalho, existe a opção de ir para a página Home, para a página Modo Foco, e para o perfil do usuário.
+A tela de Agenda apresenta o calendário do mês e as tarefas do dia. Também, a possibilidade de agendar uma tarefa. No cabeçalho, existe a opção de ir para a página Home, para a página Modo Foco, e para o perfil do usuário.
 
 ![Agenda](images/wfagenda.png)
 
 ### Tela - Modo Foco
-> A tela de Modo Foco contém um cronômetro regressivo que conforme o método Pomodoro, separa 25 minutos de foco e 5 minutos de descanso, sucessivamente por 3 vezes. No final dos 25 minutos, muda para short break de 5 minutos e no final do ciclo o foco é mudado para long break de 10 minutos. A contagem dos ciclos constam no canto inferior esquerdo da página. No cabeçalho, tem a opção de Home, Agenda e usuário.
+A tela de Modo Foco contém um cronômetro regressivo que conforme o método Pomodoro, separa 25 minutos de foco e 5 minutos de descanso, sucessivamente por 3 vezes. No final dos 25 minutos, muda para short break de 5 minutos e no final do ciclo o foco é mudado para long break de 10 minutos. A contagem dos ciclos constam no canto inferior esquerdo da página. No cabeçalho, tem a opção de Home, Agenda e usuário.
 
 ![Modofoco](images/wfmodofoco.png)
 
 ### Tela - Artigo aberto
-> A tela que contém o artigo anexado na Home-Page. São artigos que ensinam como melhorar sua rotina e quais as vantagens disso. No cabeçalho, existe a opção de ir para a página Home, para a página Agenda, para a página Modo Foco, para o perfil do usuário.
+A tela que contém o artigo anexado na Home-Page. São artigos que ensinam como melhorar sua rotina e quais as vantagens disso. No cabeçalho, existe a opção de ir para a página Home, para a página Agenda, para a página Modo Foco, para o perfil do usuário.
 
 ![Artigo](images/wfartigo.png)
 
 ### Tela -  Perfil
-> A tela de perfil é a página do usuário dono da conta, nela é possível definir e acessar o nome, o aniversário, o email, e o status do usuário. No cabeçalho, existe a opção de ir para a página Home, para a página Modo Foco, e para a página Agenda.
+A tela de perfil é a página do usuário dono da conta, nela é possível definir e acessar o nome, o aniversário, o email, e o status do usuário. No cabeçalho, existe a opção de ir para a página Home, para a página Modo Foco, e para a página Agenda.
 
 ![Perfil](images/wfperfil.png)
 
@@ -207,34 +207,14 @@ Com base na estrutura padrão, o bloco de conteúdo traz as dicas em destaque (i
 
 # Metodologia
 
-......  COLOQUE AQUI O SEU TEXTO ......
+A metodologia contempla as definições de ferramental utilizado pela equipe tanto para a manutenção dos códigos e demais artefatos quanto para a organização do time na execução das tarefas do projeto.
+## Relação de Ambientes de Trabalho
+Os artefatos do projeto são desenvolvidos a partir de diversas plataformas e a relação dos ambientes com seu respectivo propósito é apresentada na tabela que se segue. 
 
-> Nesta parte do documento, você deve apresentar a metodologia 
-> adotada pelo grupo, descrevendo o processo de trabalho baseado nas metodologias ágeis, 
-> a divisão de papéis e tarefas, as ferramentas empregadas e como foi realizada a
-> gestão de configuração do projeto via GitHub.
->
-> Coloque detalhes sobre o processo de Design Thinking e a implementação do Framework Scrum seguido
-> pelo grupo. O grupo poderá fazer uso de ferramentas on-line para acompanhar
-> o andamento do projeto, a execução das tarefas e o status de desenvolvimento
-> da solução.
-> 
-> **Links Úteis**:
-> - [Tutorial Trello](https://trello.com/b/8AygzjUA/tutorial-trello)
-> - [Gestão ágil de projetos com o Trello](https://www.youtube.com/watch?v=1o9BOMAKBRE)
-> - [Gerência de projetos - Trello com Scrum](https://www.youtube.com/watch?v=DHLA8X_ujwo)
-> - [Tutorial Slack](https://slack.com/intl/en-br/)
 
 ## Divisão de Papéis
 
-......  COLOQUE AQUI O SEU TEXTO ......
-
-> Apresente a divisão de papéis e tarefas entre os membros do grupo.
->
-> **Links Úteis**:
-> - [11 Passos Essenciais para Implantar Scrum no seu Projeto](https://mindmaster.com.br/scrum-11-passos/)
-> - [Scrum em 9 minutos](https://www.youtube.com/watch?v=XfvQWnRgxG0)
-
+(https://trello.com/invite/b/TrsN2xWQ/901fb64765607e524609210679b5a374/ponei)
 
 ## Ferramentas
 
@@ -247,28 +227,8 @@ Com base na estrutura padrão, o bloco de conteúdo traz as dicas em destaque (i
 |Hospedagem do site | Heroku |  https://XXXXXXX.herokuapp.com | 
 |Protótipo Interativo | MavelApp | https://marvelapp.com/project/6427941 | 
 
->
-> Liste as ferramentas empregadas no desenvolvimento do
-> projeto, justificando a escolha delas, sempre que possível.
-> 
-> As ferramentas empregadas no projeto são:
-> 
-> - Editor de código.
-> - Ferramentas de comunicação
-> - Ferramentas de diagramação
-> - Plataforma de hospedagem
-> 
-> O editor de código foi escolhido porque ele possui uma integração com o
-> sistema de versão. As ferramentas de comunicação utilizadas possuem
-> integração semelhante e por isso foram selecionadas. Por fim, para criar
-> diagramas utilizamos essa ferramenta por melhor captar as
-> necessidades da nossa solução.
-> 
-> **Links Úteis - Hospedagem**:
-> - [Getting Started with Heroku](https://devcenter.heroku.com/start)
-> - [Crie seu Site com o HostGator](https://www.hostgator.com.br/como-publicar-seu-site)
-> - [GoDady](https://br.godaddy.com/how-to)
-> - [GitHub Pages](https://pages.github.com/)
+
+# **############## SPRINT 1 ACABA AQUI #############**
 
 ## Controle de Versão
 
@@ -304,8 +264,6 @@ Com base na estrutura padrão, o bloco de conteúdo traz as dicas em destaque (i
 > **Exemplo - GitHub Feature Branch Workflow**:
 >
 > ![Exemplo de Wireframe](images/Github-Workflow.png)
-
-# **############## SPRINT 1 ACABA AQUI #############**
 
 
 # Projeto da Solução
