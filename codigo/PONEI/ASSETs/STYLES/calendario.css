@@ -1,0 +1,1350 @@
+@import url('https://fonts.googleapis.com/css2?family=Berkshire+Swash&family=Montserrat&display=swap');
+
+.darkDiv {
+    justify-content: center;
+    align-items: center;
+}
+
+.darkDiv button {
+    background-color: rgba(17, 17, 17, 0);
+    border-radius: 50px;
+    cursor: pointer;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    padding: 5px;
+    position: relative;
+    height: 25px;
+    width: 25px;
+    transform: scale(0.8);
+}
+
+.fa-moon {
+    color: #000000;
+}
+
+.fa-sun {
+    color: #ffff20;
+}
+
+
+
+@media (max-width: 500px) {
+
+    * {
+        overflow-x: hidden;
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+        font-family: "MontSerrat", sans-serif;
+        font-size: xx-small;
+    }
+
+
+
+
+    a {
+        color: inherit;
+    }
+
+
+    .header {
+        background-color: #50b4c8;
+    }
+
+    .header .logo {
+        text-align: left !important;
+        font-family: 'Berkshire Swash';
+        color: white;
+        font-size: 3em;
+    }
+
+    .menu {
+        display: flex;
+        padding-right: 20px;
+
+    }
+
+
+    .menu .perfil {
+        display: none;
+    }
+
+
+
+
+
+    .menu li {
+        list-style: none;
+    }
+
+
+
+
+    .header .icone i {
+        top: 15px;
+        right: 5%;
+    }
+
+
+
+    .header .nav a {
+        color: white;
+        font-size: 1.2em;
+    }
+
+    .header nav a:hover {
+        background-color: #1f3f5f;
+    }
+
+
+
+
+
+    #menuToggle {
+        display: none;
+    }
+
+    .menu-icon {
+        display: none;
+    }
+
+    .menu-icon i {
+        float: right;
+    }
+
+
+    @media (max-width: 800px) {
+
+        .card {
+            float: right;
+            margin-top: 50px;
+        }
+
+
+
+        .relogio {
+            display: absolute;
+            bottom: 0px;
+        }
+
+        .menu .perfil {
+            display: inherit;
+        }
+
+        .header nav {
+
+            width: 100%;
+            height: 100%;
+        }
+
+        .menu {
+            display: flex;
+            position: fixed;
+            flex-wrap: wrap;
+            align-content: center;
+            top: 0px;
+            left: 0px;
+            width: 100%;
+            height: 0%;
+            background-color: rgba(0, 0, 0, 0.7);
+            overflow: hidden;
+            /*tudo que está acima é escondido*/
+            transition: height 0.3s;
+            -webkit-transition: height 0.3s;
+            -moz-transition: height 0.3s;
+            -o-transition: height 0.3s;
+            z-index: 1;
+        }
+
+        .menu li {
+            display: block;
+            width: 100%;
+            margin-left: 0px;
+            margin-bottom: 20px;
+        }
+
+
+        .menu li a {
+            display: block;
+            text-align: center;
+            width: 100%;
+        }
+
+
+        .menu-icon {
+            display: block;
+            color: white;
+            width: 50px;
+            height: inherit;
+            position: absolute;
+            top: 15px;
+            right: 30px;
+            line-height: 60px;
+            z-index: 999;
+        }
+
+        .menu-icon i {
+            font-size: 1.7em;
+        }
+
+
+        #menuToggle:checked~label i:nth-child(2) {
+            display: block;
+        }
+
+
+        #menuToggle:checked~label i:first-child {
+            display: none;
+        }
+
+
+        #menuToggle:not(checked)~label i:first-child {
+            display: block;
+        }
+
+
+        #menuToggle:not(checked)~label i:nth-child(2) {
+            display: none;
+        }
+
+
+        #menuToggle:checked~ul {
+            height: 100%;
+
+        }
+
+        .engrenagem {
+            position: absolute;
+            margin-top: 10px !important;
+            margin-left: 6px;
+            width: 50px !important;
+            background-color: #171a38
+        }
+
+
+
+        .icone {
+            display: none;
+        }
+
+
+
+        #timeDisplay {
+            font-size: 7em !important;
+        }
+
+
+        .footer {
+            position: absolute;
+            margin: 0px
+        }
+
+        .opcoes {
+            display: grid;
+            grid-template-columns: repeat(3, 1fr);
+            grid-gap: 5px;
+            margin-bottom: 20px;
+        }
+
+        #pomodoro,
+        #shortBreak,
+        #longBreak {
+            height: 50px;
+        }
+
+        #modal {
+            position: fixed;
+            padding-top: 1px;
+            padding-bottom: 20px;
+            min-width: 40vw;
+            max-height: 95%;
+            z-index: 1000;
+        }
+
+        .modal-body .aprendiz,
+        .graduado,
+        .mestre,
+        .doutor {
+            width: 100%;
+        }
+
+    }
+
+
+
+
+
+    body {
+        background-color: #eee;
+    }
+
+    .bloco1 {
+        width: 100%;
+        height: 1000rem;
+        background-color: #eee;
+        color: #50b4c8;
+        display: inline;
+        justify-content: center;
+        align-items: top;
+    }
+
+    .calendar {
+        width: 100%;
+        height: 48rem;
+        background-color: #eee;
+        margin-top: 10px;
+    }
+
+    .month {
+        width: 100%;
+        height: 10rem;
+        background-color: #eee;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        padding: 0 2rem;
+        text-align: center;
+    }
+
+    .month i {
+        font-size: 2.5rem;
+        cursor: pointer;
+        padding: 20px;
+        margin: -20px;
+        color: #888;
+    }
+
+    .month h1 {
+        font-size: 3rem;
+        font-weight: 400;
+        text-transform: uppercase;
+        letter-spacing: 0.2rem;
+        margin-bottom: 1rem;
+    }
+
+    .month p {
+        font-size: 1.6rem;
+        color: #666;
+    }
+
+    .weekdays {
+        width: 100%;
+        height: 5rem;
+        padding: 0 0px;
+        display: flex;
+        align-items: center;
+        color: #f5f5f5;
+    }
+
+    .weekdays div {
+        font-size: 1.5rem;
+        font-weight: 400;
+        letter-spacing: 0.1rem;
+        width: calc(100% / 7);
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .days {
+        width: 100%;
+        display: flex;
+        flex-wrap: wrap;
+        padding: 0.0rem;
+    }
+
+    .days div {
+        font-size: 1.4rem;
+        margin: 0.0rem;
+        width: calc(100% / 7);
+        height: 5rem;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        transition: background-color 0.2s;
+        color: #222;
+    }
+
+    .days div:hover:not(.today) {
+        background-color: #bbb;
+        border: 0.2rem solid #777;
+        cursor: pointer;
+    }
+
+    .prevDate,
+    .nextDate {
+        opacity: 0.5;
+    }
+
+    .today {
+        background-color: #bbb;
+    }
+
+    .tarefas {
+        background-color: #f5f5f5;
+        width: 100%;
+        height: max-content;
+        padding: 1rem;
+        text-align: center;
+
+    }
+
+
+
+    .direita {
+        width: 50%;
+        display: inline;
+    }
+
+    .tarefa p {
+        font-size: 2rem;
+        font-weight: 500;
+        text-align: left;
+        margin-bottom: 1rem;
+        color: #f5f5f5
+    }
+
+    .prazo b {
+        font-size: 2rem;
+        font-weight: 350;
+        color: #faa23e;
+    }
+
+    .faltam b {
+        font-size: 2rem;
+        font-weight: 350;
+        color: #fb4d22;
+    }
+
+
+    .diaTarefa {
+        width: 100%;
+        height: 10rem;
+        right: 0;
+        top: 0;
+        margin-bottom: 1rem;
+        padding: 0 2rem;
+        background-color: #f5f5f5;
+        justify-content: center;
+        text-align: center;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+
+    }
+
+    #diaTitulo {
+        font-size: 4rem;
+        font-weight: 400;
+        text-align: center;
+        margin-top: 0rem;
+        color: #50b4c8;
+    }
+
+    #toDoHoje {
+        font-size: 2rem;
+        font-weight: 400;
+        text-align: center;
+        margin-top: 0rem;
+
+        color: #50b4c8;
+    }
+
+    .diaTarefa i {
+        font-size: 2.5rem;
+        cursor: pointer;
+        padding: 20px;
+        margin: -20px;
+        color: #888;
+    }
+
+    .tarefas h1 {
+        font-size: 4rem;
+        font-weight: 500;
+        text-align: center;
+        margin-top: 1rem;
+        color: #50b4c8;
+    }
+
+    .tarefas h2 {
+        font-size: 2rem;
+        font-weight: 400;
+        text-align: center;
+        margin-top: 0.5rem;
+
+        color: #50b4c8;
+    }
+
+    .tarefa {
+        /*background: linear-gradient(#333336, #eee);*/
+        background-color: rgba(0, 0, 0, 0);
+        margin-top: 2rem;
+        margin-bottom: 0rem;
+        padding-left: 1rem;
+        padding-right: 1rem;
+        border-radius: 0.5rem;
+        border: 2px solid #888;
+
+    }
+
+    .adicionar {
+        width: 100%;
+        margin-top: 0rem;
+        margin-bottom: 0rem;
+        font-size: 2rem;
+        font-weight: 400;
+        padding: 0.5rem;
+        border-radius: 0.5rem;
+        background-color: #555559;
+        color: #f5f5f5;
+    }
+
+    .adicionar:hover {
+        background-color: rgba(0, 0, 0, 0);
+        color: #f5f5f5;
+        border-color: rgba(0, 0, 0, 0);
+        transition: 0.2s;
+    }
+
+    .remover {
+        width: 6rem;
+        margin-top: 0rem;
+        margin-bottom: 0rem;
+        font-size: 1rem;
+        font-weight: 400;
+        padding: 0.5rem;
+        border-radius: 0.5rem;
+        background-color: #555559;
+        color: #f5f5f5;
+    }
+
+    .tarefaIn input {
+
+        width: 100%;
+        padding: 1rem 2rem;
+        margin-top: 0.5rem;
+        line-height: 2rem;
+        font-size: 1.4rem;
+        font-weight: 500;
+        font-family: inherit;
+        border: 2px solid #666;
+        border-radius: 0.5rem;
+        -webkit-appearance: none;
+    }
+
+    .tarefaIn input:focus {
+        background-color: #eee;
+        color: #222;
+        transition: 0.2s;
+    }
+
+    input[type="date"]:not(.has-value):before {
+        color: #000;
+        content: attr(placeholder);
+    }
+
+    .tarefaIn select {
+        background-color: #fff;
+        color: #555559;
+        width: 100%;
+        padding: 1rem 2rem;
+        margin-top: 0.5rem;
+        line-height: 2rem;
+        font-size: 1.4rem;
+        font-weight: 500;
+        font-family: inherit;
+        border: 2px solid #666;
+        border-radius: 0.5rem;
+    }
+
+    .op {
+        background-color: #fff;
+        color: #555559;
+        width: 80%;
+        padding: 1rem 2rem;
+        margin-top: 0.5rem;
+        line-height: 2rem;
+        font-size: 1.4rem;
+        font-weight: 500;
+        font-family: inherit;
+        border: 2px solid #666;
+        border-radius: 0.5rem;
+    }
+
+
+    .tarefaIn option {
+        background-color: #fff;
+        color: #555559;
+        width: 100%;
+        padding: 1rem 2rem;
+        margin-top: 0.5rem;
+        line-height: 2rem;
+        font-size: 1.4rem;
+        font-weight: 500;
+        font-family: inherit;
+        border: 2px solid #666;
+        border-radius: 0.5rem;
+    }
+
+    #sliderDiv {
+        width: 100%;
+        padding: 1rem;
+        margin-top: 0.5rem;
+        line-height: 2rem;
+        font-size: 1.4rem;
+        font-weight: 500;
+        font-family: inherit;
+        border: 2px solid #666;
+        border-radius: 0.5rem;
+        -webkit-appearance: none;
+    }
+
+    .criar {
+        width: 50%;
+        margin-top: 1rem;
+        margin-bottom: 0rem;
+        font-size: 2rem;
+        font-weight: 400;
+        padding: 0.5rem;
+        border-radius: 0.5rem;
+        background-color: #555559;
+        color: #f5f5f5;
+    }
+
+    .criar:hover {
+        background-color: rgba(0, 0, 0, 0);
+        color: #f5f5f5;
+        border-color: rgba(0, 0, 0, 0);
+        transition: 0.2s;
+
+    }
+
+
+    .slider {
+        float: left;
+        margin-top: 3rem;
+        margin-left: 0rem;
+        width: 50%;
+    }
+
+    .sliderBar {
+        width: 100%;
+        height: 1.5rem;
+        padding: 0;
+        background-color: #777;
+        border-radius: 3rem;
+        -webkit-appearance: none;
+        -moz-appearance: none;
+        appearance: none;
+    }
+
+    #tarefaBox h1 {
+        font-size: 4rem;
+        font-weight: 300;
+        align-items: center;
+
+    }
+
+    .desDiv {
+        height: 5rem;
+        margin-bottom: 1rem;
+    }
+
+    .descricao {
+        font-size: 1.6rem;
+        font-weight: 400;
+        display: flex;
+        text-align: center;
+        margin-top: 1rem;
+        margin-left: 0rem;
+        width: 100%;
+        color: #666;
+    }
+
+    .prazoEfalta {
+        width: 100%;
+
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        padding: 0 2rem;
+        text-align: center;
+
+    }
+
+    .prazo {
+        right: 0%;
+        margin-top: 0rem;
+        margin-right: 2rem;
+    }
+
+    .faltam {
+        right: 0%;
+        margin-top: 0rem;
+        margin-right: 2rem;
+    }
+
+    .tarefa p {
+        font-size: 2rem;
+        font-weight: 350;
+        text-align: right;
+        margin-bottom: 1rem;
+        color: #222;
+    }
+
+    .prazo b {
+        font-size: 2rem;
+        font-weight: 350;
+        color: #faa23e;
+    }
+
+    .faltam b {
+        font-size: 2rem;
+        font-weight: 350;
+        color: #fb4d22;
+    }
+
+    #formDiv {
+        display: none;
+    }
+
+    .form-control {
+        background-color: rgb(93, 254, 48);
+        height: 3rem;
+        border-radius: 3rem;
+        padding: 1rem;
+        margin-top: 1rem;
+    }
+
+    .form-control {
+        background-color: #222;
+        font-size: 2rem;
+        font-weight: 350;
+        height: 3rem;
+        width: 80%;
+        float: left;
+        border: 0;
+    }
+
+    .btn-outline-secondary {
+        background-color: #fff;
+        font-size: 1.5rem;
+        font-weight: 350;
+        width: 20%;
+        height: 3rem;
+        border: 0;
+        border-radius: 3rem;
+        float: inline-end;
+
+    }
+
+    .days b {
+        font-size: 1rem;
+        font-weight: 350;
+        letter-spacing: -0.25rem;
+        padding: 0rem;
+    }
+
+    .green {
+        color: rgb(52, 204, 52);
+    }
+
+    .blue {
+        color: rgb(30, 169, 215);
+    }
+
+    .yellow {
+        color: rgb(255, 255, 65);
+    }
+
+    .orange {
+        color: rgb(255, 180, 41);
+    }
+
+    .red {
+        color: rgb(237, 34, 34);
+    }
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+@import url('https://fonts.googleapis.com/css2?family=Berkshire+Swash&family=Montserrat&display=swap');
+
+@media (min-width: 501px) {
+
+    * {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+        font-family: "MontSerrat", sans-serif;
+        font-size: xx-small;
+    }
+
+
+    .menu-icon {
+        display: none;
+
+    }
+
+    .menu-icon i {
+        display: none;
+    }
+
+
+    .header {
+        /*background: linear-gradient(#2eb4e9 10%, #50b4c8 100%);*/
+        background-color: #50b4c8;
+        height: 80px;
+        position: fixed
+    }
+
+    .header .logo {
+        margin: 10px;
+        text-align: left !important;
+        font-family: 'Berkshire Swash';
+        color: white;
+        font-size: 4em;
+    }
+
+    .menu {
+        display: flex;
+        position: relative;
+        padding-right: 20px;
+
+    }
+
+
+    .menu .perfil {
+        display: none;
+    }
+
+    #menuToggle {
+        display: none;
+    }
+
+
+
+
+
+    .menu li {
+        list-style: none;
+        text-decoration: none;
+    }
+
+
+
+    .header nav {
+        position: absolute;
+        top: 15px;
+        right: 10%;
+        text-decoration: none;
+    }
+
+    .header .icone i {
+        position: absolute;
+        top: 15px;
+        right: 5%;
+        text-decoration: none;
+        font-size: 2em;
+    }
+
+
+
+    .header .nav a {
+        color: white;
+        font-size: 2em;
+        text-decoration: none;
+    }
+
+    .header nav a:hover {
+        background-color: #1f3f5f;
+        text-decoration: none;
+    }
+
+
+
+
+
+    .bloco1 {
+
+        height: 100vw;
+        background-color: #eee;
+        color: #333;
+        display: flex;
+        justify-content: right;
+        align-items: top;
+    }
+
+    .calendar {
+        width: 70%;
+        height: 100%;
+        background-color: #f5f5f5;
+        position: fixed;
+        left: 0;
+        margin-top: 80px;
+    }
+
+    .month {
+        width: 100%;
+        height: 10rem;
+        /*background: linear-gradient(#50b4c8 10%, #a3fcff 90%);*/
+        background: #f5f5f5;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        padding: 0 2rem;
+        text-align: center;
+    }
+
+    .month i {
+        font-size: 2.5rem;
+        cursor: pointer;
+        padding: 20px;
+        margin: -20px;
+        color: #50b4c8;
+    }
+
+    .month h1 {
+        font-size: 3.5rem;
+        font-weight: 500;
+        text-transform: uppercase;
+        letter-spacing: 0.2rem;
+        margin-bottom: 0rem;
+        margin-top: 1rem;
+        color: #222;
+    }
+
+    .month p {
+        font-size: 2rem;
+        font-weight: 400;
+        color: #222;
+        margin-top: 1rem;
+    }
+
+    .month p:hover {
+        font-weight: 500;
+        cursor: pointer;
+        color: #50b4c8;
+    }
+
+    .weekdays {
+        width: 100%;
+        height: 5rem;
+        padding: 0 0px;
+        display: flex;
+        align-items: center;
+        color: #50b4c8;
+    }
+
+    .weekdays div {
+        font-size: 1.5rem;
+        font-weight: 400;
+        letter-spacing: 0.1rem;
+        width: calc(100% / 7);
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .days {
+        width: 100%;
+        display: flex;
+        flex-wrap: wrap;
+        padding: 0.0rem;
+    }
+
+    .days div {
+        font-size: 1.4rem;
+        padding: 1rem;
+        width: calc(100% / 7);
+        height: 10rem;
+        display: flex;
+        justify-content: left;
+        align-items: top;
+        transition: background-color 0.2s;
+        border: 1px solid #f5f5f5;
+        color: #222;
+        background-color: rgb(201, 201, 201);
+    }
+
+    .days div:hover:not(.today) {
+        background-color: #aaaaaa;
+        border: 0.2rem solid #777;
+        cursor: pointer;
+    }
+
+    .prevDate,
+    .nextDate {
+        background-color: #d1d1d161;
+        opacity: 0.5;
+    }
+
+    .today {
+        background-color: #f5f5f5 !important;
+    }
+
+
+    .tarefas {
+        background-color: #f5f5f5;
+        width: 30%;
+        height: 100%;
+        padding-left: 1rem;
+        padding-right: 1rem;
+        padding-top: 10.6rem;
+        text-align: center;
+        justify-content: center;
+        margin-top: 80px;
+
+    }
+
+    .diaTarefa {
+        width: 30%;
+        height: 10rem;
+        position: fixed;
+        right: 0;
+        top: 80px;
+        padding: 0 2rem;
+        background-color: #f5f5f5;
+        justify-content: center;
+        text-align: center;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+
+    }
+
+    #diaTitulo {
+        font-size: 4rem;
+        font-weight: 400;
+        text-align: center;
+        margin-top: 0rem;
+        color: #222;
+    }
+
+    #toDoHoje {
+        font-size: 2rem;
+        font-weight: 400;
+        text-align: center;
+        margin-top: 0rem;
+
+        color: #50b4c8;
+    }
+
+    .diaTarefa i {
+        font-size: 2.5rem;
+        cursor: pointer;
+        padding: 20px;
+        margin: -20px;
+        color: #50b4c8;
+    }
+
+    .tarefas h1 {
+        font-size: 4rem;
+        font-weight: 500;
+        text-align: center;
+        margin-top: 1rem;
+        color: #50b4c8;
+    }
+
+    .tarefas h2 {
+        font-size: 2.5rem;
+        font-weight: 400;
+        text-align: center;
+        margin-top: 0.5rem;
+
+        color: #50b4c8;
+    }
+
+    .tarefa {
+        /*background: linear-gradient(#333336, #eee);*/
+        background-color: rgba(0, 0, 0, 0);
+
+        height: 17rem;
+        margin-top: 2rem;
+        margin-bottom: 0rem;
+
+        padding-left: 1rem;
+        padding-right: 1rem;
+        border-radius: 0.5rem;
+        border: 2px solid #888;
+
+
+
+    }
+
+
+    .adicionar {
+        width: 100%;
+        margin-top: 0rem;
+        margin-bottom: 0rem;
+        font-size: 2rem;
+        font-weight: 400;
+        padding: 0.5rem;
+        border-radius: 0.5rem;
+        background-color: #50b4c8;
+        color: #f5f5f5;
+    }
+
+    .adicionar:hover {
+        background-color: rgba(0, 0, 0, 0);
+        color: #f5f5f5;
+        border-color: rgba(0, 0, 0, 0);
+        transition: 0.2s;
+    }
+
+    .remover {
+        width: 6rem;
+        margin-top: 0rem;
+        margin-bottom: 0rem;
+        font-size: 1rem;
+        font-weight: 400;
+        padding: 0.5rem;
+        border-radius: 0.5rem;
+        background-color: #555559;
+        color: #f5f5f5;
+    }
+
+    .tarefaIn input {
+
+        width: 100%;
+        padding: 1rem 2rem;
+        margin-top: 0.5rem;
+        line-height: 2rem;
+        font-size: 1.4rem;
+        font-weight: 500;
+        font-family: inherit;
+        border: 2px solid #666;
+        border-radius: 0.5rem;
+        -webkit-appearance: none;
+    }
+
+    .tarefaIn input:focus {
+        background-color: #eee;
+        color: #222;
+        transition: 0.2s;
+    }
+
+    input[type="date"]:not(.has-value):before {
+        color: #000;
+        content: attr(placeholder);
+    }
+
+    .tarefaIn select {
+        background-color: #fff;
+        color: #555559;
+        width: 100%;
+        padding: 1rem 2rem;
+        margin-top: 0.5rem;
+        line-height: 2rem;
+        font-size: 1.4rem;
+        font-weight: 500;
+        font-family: inherit;
+        border: 2px solid #666;
+        border-radius: 0.5rem;
+    }
+
+    .op {
+        background-color: #fff;
+        color: #555559;
+        width: 32.85%;
+        padding: 1rem 2rem;
+        margin-top: 0.5rem;
+        line-height: 2rem;
+        font-size: 1.4rem;
+        font-weight: 500;
+        font-family: inherit;
+        border: 2px solid #666;
+        border-radius: 0.5rem;
+    }
+
+
+    .tarefaIn option {
+        background-color: #fff;
+        color: #555559;
+        width: 100%;
+        padding: 1rem 2rem;
+        margin-top: 0.5rem;
+        line-height: 2rem;
+        font-size: 1.4rem;
+        font-weight: 500;
+        font-family: inherit;
+        border: 2px solid #666;
+        border-radius: 0.5rem;
+    }
+
+    .tarefaIn textarea {
+        background-color: #fff;
+        color: #555559;
+        width: 100%;
+        padding: 1rem 2rem;
+        margin-top: 0.5rem;
+        line-height: 2rem;
+        font-size: 1.4rem;
+        font-weight: 500;
+        font-family: inherit;
+        border: 2px solid #666;
+        border-radius: 0.5rem;
+    }
+
+    .criar {
+        width: 50%;
+        margin-top: 1rem;
+        margin-bottom: 0rem;
+        font-size: 2rem;
+        font-weight: 400;
+        padding: 0.5rem;
+        border-radius: 0.5rem;
+        background-color: #555559;
+        color: #f5f5f5;
+    }
+
+    .criar:hover {
+        background-color: rgba(0, 0, 0, 0);
+        color: #f5f5f5;
+        border-color: rgba(0, 0, 0, 0);
+        transition: 0.2s;
+
+    }
+
+    #tarefaBox h1 {
+        font-size: 4rem;
+        font-weight: 300;
+        align-items: center;
+
+    }
+
+    .desDiv {
+        height: 5rem;
+        margin-bottom: 1rem;
+    }
+
+    .descricao {
+        font-size: 1.6rem;
+        font-weight: 400;
+        display: flex;
+        text-align: center;
+        margin-top: 1rem;
+        margin-left: 0rem;
+        width: 100%;
+        color: #666;
+    }
+
+    .prazoEfalta {
+        width: 100%;
+
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        padding: 0 2rem;
+        text-align: center;
+
+    }
+
+    .prazo {
+        width: 100%;
+        display: block
+    }
+
+    .faltam {
+        width: 100%;
+        display: block
+    }
+
+    .tarefa p {
+        font-size: 2rem;
+        font-weight: 350;
+        margin-bottom: 1rem;
+        color: #222;
+    }
+
+    .prazo b {
+        font-size: 2rem;
+        font-weight: 350;
+        color: #faa23e;
+    }
+
+    .faltam b {
+        font-size: 2rem;
+        font-weight: 350;
+        color: #fb4d22;
+    }
+
+    #formDiv {
+        display: none;
+    }
+
+    .form-control {
+        background-color: rgb(93, 254, 48);
+        height: 3rem;
+        border-radius: 3rem;
+        padding: 1rem;
+        margin-top: 1rem;
+    }
+
+    .form-control {
+        background-color: #222;
+        font-size: 2rem;
+        font-weight: 350;
+        height: 3rem;
+        width: 80%;
+        float: left;
+        border: 0;
+    }
+
+    .btn-outline-secondary {
+        background-color: #fff;
+        font-size: 1.5rem;
+        font-weight: 350;
+        width: 20%;
+        height: 3rem;
+        border: 0;
+        border-radius: 3rem;
+        float: inline-end;
+
+    }
+
+    .days div {
+        display: inline-block;
+    }
+
+    .days b {
+        font-size: 1.5rem;
+        font-weight: 350;
+        letter-spacing: -0.25rem;
+    }
+
+    .green {
+        color: rgb(52, 204, 52);
+    }
+
+    .blue {
+        color: rgb(30, 169, 215);
+    }
+
+    .yellow {
+        color: rgb(255, 255, 65);
+    }
+
+    .orange {
+        color: rgb(255, 180, 41);
+    }
+
+    .red {
+        color: rgb(237, 34, 34);
+    }
+
+
+}
