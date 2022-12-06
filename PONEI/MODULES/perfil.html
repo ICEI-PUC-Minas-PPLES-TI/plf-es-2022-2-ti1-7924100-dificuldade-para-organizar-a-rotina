@@ -1,0 +1,182 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.0/css/bootstrap.min.css">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-rbsA2VBKQhggwzxH7pPCaAqO46MgnOM80zW1RWuH61DGLwZJEdK2Kadq2F9CUG65" crossorigin="anonymous">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+  <link rel="stylesheet" href="../ASSETs/STYLES/perfil.css" />
+  <title>Perfil</title>
+  <link rel="icon" type="image/x-icon" href="../ASSETs/IMAGENS/favicon.png">
+</head>
+
+<body>
+  <!--cabeçalho-->
+
+  <header class="container-fluid header">
+
+    <div class="row">
+
+      <div class="col-12">
+
+        <a href="../index.html" style="text-decoration:none ;">
+          <p class="logo">PONEI</p>
+        </a>
+
+
+        <nav class="nav">
+
+          <input type="checkbox" id="menuToggle">
+          <label for="menuToggle" class="menu-icon">
+            <i class="fa fa-bars barra"></i>
+            <i class="fa fa-times-circle"></i>
+          </label>
+
+
+          <ul class="menu">
+            <li><a class="nav-link active" style="margin-top:8px ;" href="../index.html">HOME</a></li>
+            <li><a class="nav-link" style="margin-top:8px ;" href="./calendario.html">AGENDA</a></li>
+            <li><a class="nav-link" style="margin-top:8px ;" href="./artigos.html">ARTIGOS</a></li>
+            <li><a class="nav-link active" style="margin-top:8px ;" href="./listapsi.html">CONTATOS</a></li>
+            <li><a class="nav-link" style="margin-top:8px ;" href="./modoFoco.html">MODO FOCO</a></li>
+            <li><a id="li-login" class="nav-link" style="margin-top:8px ;" href="./login.html">LOGIN</a></li>
+            <li class="perfil"><a class="nav-link" style="margin-top:8px ;" href="./perfil.html">PERFIL</a></li>
+          </ul>
+
+        </nav>
+
+
+
+        <a class="icone" href="./perfil.html">
+          <div class="fa-3x icone">
+            <i class="fa-regular fa-circle-user"></i>
+          </div>
+        </a>
+
+      </div>
+
+    </div>
+
+
+
+  </header>
+
+
+  <!--MAIN-->
+
+
+  <!--FORMULARIO-->
+  <div class="row justify-content-center" style="align-items: center;">
+    <div class="col-lg-6 col-sm-12 col-md-6">
+      <div class="conta">
+        <form>
+          <div id="form-contato" class="form">
+            <h2>Atualize seu Perfil</h2>
+            <div class="nome">
+              <label class="title_placeholder" for="inputNome">Nome:</label>
+              <input type="text" class="form-control" id="inputNome" placeholder="Digite seu nome" required>
+            </div>
+            <div class="aniversario">
+              <label class="title_placeholder" for="inputAniversario">Aniversário:</label>
+              <input type="date" class="form-control" id="inputAniversario" placeholder="00/00/0000" required>
+            </div>
+            <div class="email">
+              <label class="title_placeholder" for="inputEmail">E-mail:</label>
+              <input type="email" class="form-control" id="inputEmail" placeholder="Digite seu Email" required>
+            </div>
+            <div class="status">
+              <label class="title_placeholder" for="inputObjetivo">Status:</label>
+              <input type="search" list="objtv" class="form-control" id="inputStatus"
+                placeholder="Status profissional atual" required>
+            </div>
+            <br>
+            <div class="button">
+              <input type="submit" class="btnSalva" id="btnSalva" value="Salvar">
+            </div>
+          </div>
+        </form>
+      </div>
+    </div>
+
+
+    <!--FIM DO FORMULARIO-->
+
+
+    <!--PERFIL DO USUARIO-->
+    <div class="col-lg-4 col-sm-8 col-md-4" id="card">
+
+      <img src="../ASSETs/IMAGENS/ponei.png" alt="foto de perfil do usuario">
+
+      <div id="telinha"></div>
+    </div>
+  </div>
+
+
+  <!--FINAL DO PERFIL DO USUARIO-->
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.8.3/jquery.min.js"></script>
+  <script src="../ASSETs/SCRIPTS/perfil.js"></script>
+
+
+
+  <!-- footer -->
+
+  <footer>
+    <div class="footer-content">
+
+      <div class="row">
+        <div class="col-lg-6 col-sm-12 col-md-6">
+          <h3>PROJETO PONEI</h3>
+          <p><strong>O clima da sua cidade está adequado para estudar ou correr ao livre? Está com dificuldade
+              de organizar sua
+              rotina? Está perdido de qual técnica usar? Como está sua saúde mental para as atividades? Essas e outras
+              perguntas são respondidas no site PONEI, o melhor site de organizar rotina que você vai ver! Aqui temos
+              relógio pomodoro, agenda de tarefas, monitoramento de clima, contatos de psicólogos e muito mais! Explore
+              o
+              site e venha ser PONEI!</strong></p>
+        </div>
+        <div class="col-lg-6 col-sm-12 col-md-6">
+
+          <h3>EQUIPE PONEI</h3>
+          <p>Danilo Pereira<br>
+            Ernani Procopio<br>
+            Leticia Blom<br>
+            Lucas Cabral<br>
+            Thiago Perdigão<br>
+            Vitor Stahlberg</p>
+          <ul class="socials">
+            <li title="Danilo Pereira"><a href="https://www.instagram.com/"><i class="fa fa-instagram"></i></a></li>
+            <li title="Ernani Procopio"><a href="https://www.instagram.com/"><i class="fa fa-instagram"></i></a></li>
+            <li title="Letícia Blom"><a href="https://www.instagram.com/"><i class="fa fa-instagram"></i></a></li>
+            <li title="Lucas Cabral"><a href="https://www.instagram.com/"><i class="fa fa-instagram"></i></a></li>
+            <li title="Thiago Perdigão"><a href="https://www.instagram.com/thiagoperdig"><i
+                  class="fa fa-instagram"></i></a></li>
+            <li title="Vitor Stahlberg"><a href="https://www.instagram.com/"><i class="fa fa-instagram"></i></a></li>
+            </li>
+          </ul>
+        </div>
+      </div>
+      <div class="footer-bottom">
+        <p>copyright &copy;2022 <a href="#">PONEI</a> </p>
+        <div class="footer-menu">
+        </div>
+      </div>
+
+  </footer>
+  <script defer src="../ASSETs/SCRIPTS/checkIsLogged.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-kenU1KFdBIe4zVF0s0G1M5b4hcpxyD9F7jL+jjXkk+Q2h455rYXK/7HAuoJl+0I4"
+    crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js"
+    integrity="sha384-oBqDVmMz9ATKxIep9tiCxS/Z9fNfEXiDAYTujMAeBAsjFuCZSmKbSSUnQlmh/jp3"
+    crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.min.js"
+    integrity="sha384-cuYeSxntonz0PPNlHhBs68uyIAVpIIOZZ5JqeqvYYIcEL727kskC66kF92t6Xl2V"
+    crossorigin="anonymous"></script>
+</body>
+
+</html>
