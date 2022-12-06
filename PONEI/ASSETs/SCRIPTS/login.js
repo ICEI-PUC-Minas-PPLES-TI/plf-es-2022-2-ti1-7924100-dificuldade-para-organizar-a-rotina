@@ -120,9 +120,6 @@ function addUser(nome, login, senha, email) {
   localStorage.setItem('db_usuarios', JSON.stringify(db_usuarios));
 }
 
-const buttonSubmit = document.getElementById('button-submit');
-
-buttonSubmit.addEventListener('click', (e) => loginUser(e));
 
 function setUserPass() {
   // const button = document.getElementById('button-new-user')
