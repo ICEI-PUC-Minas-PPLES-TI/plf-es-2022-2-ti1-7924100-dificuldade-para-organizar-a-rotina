@@ -1,31 +1,35 @@
 cff-version: 1.0.1
 message: Please cite this software using these metadata.
-title: 
+title: 04 - Dificuldade organizar rotina (Ponei)
 authors:
-  - family-names: 
-    given-names: 
-  - family-names: 
-    given-names: 
-  - family-names: 
-    given-names: 
-  - family-names: 
-    given-names: 
-  - family-names: 
-    given-names: 
-  - family-names: 
-    given-names:
+  - family-names: Silva Pereira
+    given-names: Danilo Augusto 
+  - family-names: Procopio Neto
+    given-names: Ernani
+  - family-names: Rodrigues Blom de Paula
+    given-names: Letícia
+  - family-names: Cabral Soares
+    given-names: Lucas
+  - family-names: Pereira Perdigao
+    given-names: Thiago Vitor 
+  - family-names: Lagares Stahlberg
+    given-names: Vítor
   - name-suffix: Professor
     affiliation: PUC Minas
-    family-names: 
-    given-names: 
+    family-names: Lara Soares
+    given-names: Felipe Augusto
   - name-suffix: Professor
     affiliation: PUC Minas
-    family-names: 
-    given-names: 
+    family-names: Dias Ferreira da Rocha
+    given-names: Roberto Felipe
+  - name-suffix: Professor
+    affiliation: PUC Minas
+    family-names: Vieira Carneiro
+    given-names: Rommel
 keywords:
-  - 
-  - 
-repository-code: 
+  - procrastinação
+  - produtividade
+repository-code: https://github.com/ICEI-PUC-Minas-PPLES-TI/plf-es-2022-2-ti1-7924100-dificuldade-para-organizar-a-rotina
 license: CC-BY-4.0
 version: 1.0.0
-date-released: 2022-07-14
+date-released: 2022-12-14 
